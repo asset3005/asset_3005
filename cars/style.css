@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+}
+
+.header{
+    height: 100vh; /*растягивает картинку на весь экран*/
+    background-size: cover; /*увеличивает картинку до необходимого размера, cover:  вся картинка видна на экране*/
+    background-position: center; /*низ и верх картинки немножечко обрезаются, center: картинка располагается ровно по центру*/
+}
+
+.head{
+    height: 100vh; /*растягивает картинку на весь экран*/
+    background-size: cover; /*увеличивает картинку до необходимого размера, cover:  вся картинка видна на экране*/
+    background-position: center; /*низ и верх картинки немножечко обрезаются, center: картинка располагается ровно по центру*/
+}
+
+ul1{
+    margin: 0 auto; /*Для регуляции по правому и левому краям*/
+    list-style-type: none; /*Для того, чтобы не было точек*/
+    display: flex; /*Для того чтобы элементы шли в строчку*/
+    justify-content: space-between; /*Для того чтобы было растояние в перечеслении*/
+    max-width: 400px; /*Для того чтобы задать максимальную разницу между контентами*/
+    padding: 0; /*Для того чтобы не было лишнего промежутка*/
+    padding-top: 30; /*Для того чтобы был промежуток с верху*/
+}
+
+ul{
+    margin: 100 auto; /*Для регуляции по правому и левому краям*/
+    list-style-type: none; /*Для того, чтобы не было точек*/
+    display: flex; /*Для того чтобы элементы шли в строчку*/
+    justify-content: space-between; /*Для того чтобы было растояние в перечеслении*/
+    max-width: 400px; /*Для того чтобы задать максимальную разницу между контентами*/
+    padding: 5; /*Для того чтобы не было лишнего промежутка*/
+    padding-top: 30; /*Для того чтобы был промежуток с верху*/
+}
+
+li a{
+    text-decoration: none; /*Для того чтобы не было подчеркивания*/
+    text-transform: uppercase; /*Все слова пишутся ПРОПИСНЫМИ буквами*/
+    color: black;
+    font-family: 'Michroma', sans-serif;
+}
+
+h1{
+    text-align: center; /*текст по центру*/
+    color: rgb(63, 63, 63);
+    margin-top: 80px; /*Отступ с верху*/
+    margin-bottom: 0; /*Отступ с низу*/
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 42px;
+    text-decoration: none; /*
+    letter-spacing: 1.5px; /*Регулировка разницы между буквами*/
+}
+
+h2{
+    text-align: center; /*текст по центру*/
+    color: rgb(63, 63, 63);
+    margin-top: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300; /*Регулировка жирности тескта*/
+    letter-spacing: 1.5px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 420px;
+}
+
+button{
+    width: 250px;
+    height: 40px;
+    font-family: 'Michroma', sans-serif; /*Не работает*/
+    font-size: 24px;
+    text-transform: uppercase;
+    background-color: #404146;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    outline: none; /*Для того чтобы не появлялось ночертание во время нажатия*/
+    border-radius: 30px;
+    word-spacing: 5px; /*Увеличение разницы между словами*/
+}
